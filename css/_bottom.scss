@@ -1,0 +1,21 @@
+#silverRowBottom {
+  position: absolute;
+  width: 1920px;
+  height: 739px;
+  top: 1895px;
+  background: linear-gradient(
+    180.12deg,
+    rgba(0, 0, 0, 0) 28.62%,
+    rgba(58, 31, 27, 0.1) 99.89%
+  );
+  mix-blend-mode: multiply;
+  transform: rotate(-180deg);
+}
+
+@media screen and (max-width: 768px) {
+  #silverRowBottom {
+    top: 2755px;
+    width: 100vw;
+    height: 739px;
+  }
+}

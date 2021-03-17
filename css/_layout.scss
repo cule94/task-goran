@@ -1,0 +1,23 @@
+body {
+  position: relative;
+  width: 1920px;
+  height: 2643px;
+  background: #ffffff;
+}
+.uk-container {
+  position: relative;
+  max-width: 1920px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100vw;
+    height: 3643px;
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .uk-container {
+    width: 100vw;
+  }
+}

@@ -1,0 +1,19 @@
+#product {
+  position: absolute;
+  width: 1930px;
+  height: 709px;
+  left: -10px;
+  top: 302px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(248, 248, 249, 0) 26.32%,
+    #f8f8f9 99.48%
+  );
+}
+@media screen and (max-width: 768px) {
+  #product {
+    width: 100vw;
+    height: 1670px;
+  }
+}

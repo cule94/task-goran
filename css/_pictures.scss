@@ -1,0 +1,213 @@
+#selectedProduct {
+  position: absolute;
+  margin-left: 83px;
+  top: 21px;
+  width: 279px;
+  height: 385px;
+}
+#selectedProduct:hover {
+  transform: scale(1.5);
+}
+#basketIcon {
+  position: absolute;
+  margin-top: 13px;
+  height: 25px;
+  padding-left: 0%;
+  left: 1547px;
+}
+#logo,
+#slikovnice,
+#ostaliProizvodi,
+#blog,
+#snizeno,
+#magnifier,
+#handshake {
+  position: absolute;
+}
+#logo {
+  margin-top: 45px;
+  margin-left: 197px;
+}
+#slikovnice {
+  margin-top: 37px;
+  margin-left: 608px;
+}
+#ostaliProizvodi {
+  margin-top: 36px;
+  margin-left: 809px;
+}
+#blog {
+  margin-top: 37px;
+  margin-left: 979px;
+}
+#snizeno {
+  margin-top: 36px;
+  margin-left: 1114px;
+}
+#magnifier {
+  margin-left: 1453px;
+  padding-left: 0%;
+  margin-top: 35px;
+}
+#handshake {
+  margin-top: 37px;
+  margin-left: 1677px;
+}
+#heartProduct {
+  position: absolute;
+  width: 39px;
+  height: 35px;
+  margin-top: 28px;
+  margin-left: 398px;
+}
+#img46:hover,
+#img45:hover,
+#img48:hover {
+  transform: scale(1.5);
+}
+#img46 {
+  position: absolute;
+}
+#img45 {
+  margin-left: 198px;
+  position: absolute;
+}
+#img48 {
+  margin-left: 398px;
+  position: absolute;
+}
+#miniBook {
+  position: absolute;
+  width: 40.55px;
+  height: 32px;
+  left: 686px;
+  top: 1128px;
+}
+#child {
+  position: absolute;
+  margin-top: 202px;
+  margin-left: 1600px;
+}
+#heart1,
+#heart2,
+#heart3,
+#heart4,
+#heart5,
+#heart6 {
+  position: absolute;
+  width: 23px;
+  height: 21px;
+  top: 14px;
+  left: 183.95px;
+}
+#chevronLeft {
+  position: absolute;
+  margin-top: 1493px;
+  left: 9.06%;
+  width: 17px;
+  height: 30px;
+}
+#chevronLeft:hover {
+  transform: scale(3);
+}
+#chevronRight {
+  position: absolute;
+  left: 88.91%;
+  right: 10.21%;
+  top: 1663px;
+  bottom: 35.94%;
+  width: 17px;
+  height: 30px;
+}
+#chevronRight:hover {
+  transform: scale(3);
+}
+#knjiga2 {
+  position: absolute;
+  margin-top: 1168.71px;
+  left: 888px;
+}
+#img1:hover,
+#img2:hover,
+#img3:hover,
+#img4:hover,
+#img5:hover,
+#img6:hover {
+  transform: scale(1.5);
+}
+@media screen and (max-width: 768px) {
+  #basketIcon {
+    left: 75%;
+    top: 25%;
+  }
+  #logo {
+    position: absolute;
+    zoom: 70%;
+    margin-top: 2%;
+    margin-left: 5%;
+  }
+  #slikovnice,
+  #ostaliProizvodi,
+  #blog,
+  #snizeno,
+  #handshake {
+    margin-top: 100px;
+    zoom: 70%;
+  }
+  #slikovnice {
+    margin-left: 6%;
+  }
+  #ostaliProizvodi {
+    margin-left: 33%;
+  }
+  #blog {
+    margin-left: 55%;
+  }
+  #snizeno {
+    margin-left: 67%;
+  }
+  #magnifier {
+    margin-left: 90%;
+    zoom: 80%;
+    margin-top: 10px;
+  }
+  #handshake {
+    margin-left: 85%;
+  }
+  #knjiga2 {
+    margin-top: 2084px;
+    left: 35%;
+  }
+  #miniBook {
+    top: 2048px;
+    left: 5%;
+  }
+  #chevronLeft {
+    top: 790px;
+    left: 15%;
+  }
+
+  #chevronRight {
+    top: 2505px;
+    left: 80%;
+  }
+  #img46,
+  #img45,
+  #img48 {
+    zoom: 70%;
+    margin-top: -100px;
+  }
+  #selectedProduct {
+    zoom: 60%;
+    margin-left: 5%;
+  }
+  #child {
+    top: 120px;
+    margin-left: 45%;
+    zoom: 60%;
+    z-index: 1;
+  }
+  #heartProduct {
+    margin-left: 80%;
+  }
+}

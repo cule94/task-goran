@@ -1,0 +1,54 @@
+#mailIcon {
+  margin-top: 16px;
+  position: absolute;
+  left: 3.39%;
+  right: 95.41%;
+}
+#phoneIcon {
+  margin-top: 16px;
+  position: absolute;
+  left: 13.65%;
+  right: 85.42%;
+}
+#userIcon {
+  margin-top: 16px;
+  position: absolute;
+  right: 25.3%;
+}
+#igIcon {
+  right: 9.53%;
+  margin-top: 16px;
+  position: absolute;
+  color: #05b5aa;
+}
+#fbIcon {
+  right: 6.86%;
+  margin-top: 16px;
+  position: absolute;
+  color: #05b5aa;
+}
+#ytIcon {
+  right: 3.42%;
+  margin-top: 16px;
+  position: absolute;
+  color: #05b5aa;
+}
+
+@media screen and (max-width: 768px) {
+  #phoneIcon {
+    left: 12%;
+  }
+  #userIcon {
+    left: 54%;
+    margin-top: 7px;
+  }
+  #igIcon {
+    right: 12%;
+  }
+  #ytIcon {
+    right: 1%;
+  }
+  #fbIcon {
+    right: 7%;
+  }
+}

@@ -1,0 +1,14 @@
+#headerGreen {
+  position: absolute;
+  width: 1920px;
+  height: 136px;
+  left: 0px;
+  margin-top: 53px;
+  background: #cfd80d;
+}
+
+@media screen and (max-width: 768px) {
+  #headerGreen {
+    width: 100vw;
+  }
+}
